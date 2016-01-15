@@ -1,0 +1,522 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ixer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ixer.ico"
+ICO_CDDRV               ICON    DISCARDABLE     "res\\CDdrive.ico"
+ICO_CLSDFLD             ICON    DISCARDABLE     "res\\Clsdfold.ico"
+ICO_DRIVE               ICON    DISCARDABLE     "res\\drive.ico"
+ICO_FLOPPYDRV           ICON    DISCARDABLE     "res\\floppy.ico"
+ICO_MYCOMPUTER          ICON    DISCARDABLE     "res\\Computer.ico"
+ICO_OPENFLD             ICON    DISCARDABLE     "res\\Openfold.ico"
+ICO_SZ                  ICON    DISCARDABLE     "res\\sz.ico"
+ICO_DWORD               ICON    DISCARDABLE     "res\\dword.ico"
+ICO_RCLSDFLD            ICON    DISCARDABLE     "res\\regClsdfold.ico"
+ICO_ROPENFLD            ICON    DISCARDABLE     "res\\regOpenfold.ico"
+ICO_RCOMPUTER           ICON    DISCARDABLE     "res\\regComputer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ixer"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ixer 0.11 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_IXER_DIALOG DIALOGEX 0, 0, 512, 322
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ixer  0.11 开源版"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB_MAIN_VIEW,"SysTabControl32",0x0,0,0,512,
+                    322
+END
+
+IDD_LPROC_MGR DIALOGEX 0, 0, 511, 305
+STYLE WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "进程：0,  隐藏进程：0,  应用层拒绝访问：0",
+                    IDC_STATIC_PROCESS,0,295,511,10,0,WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_PROCESS_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,0,0,510,294
+END
+
+IDD_NEW_DLL_MGR_DLG DIALOGEX 0, 0, 360, 175
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "[%s]-进程模块(%d)"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_MOUDLE_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,1,1,358,171,WS_EX_CLIENTEDGE
+END
+
+IDD_NEW_THREAD_MGR_DLG DIALOGEX 20, 20, 360, 175
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "[%s]-进程线程(%d)"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_THREAD_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,1,1,357,171,WS_EX_CLIENTEDGE
+END
+
+IDD_LSSDT_MGR DIALOGEX 0, 0, 507, 304
+STYLE WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_SSDT_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,0,0,507,292
+    LTEXT           "SSDT函数：%d   挂钩函数：%d",IDC_STATIC_SSDT,0,294,507,
+                    10,0,WS_EX_STATICEDGE
+END
+
+IDD_LSHADOW_MGR DIALOGEX 0, 0, 507, 304
+STYLE WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_SHADOWSSDT_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,0,0,507,292
+    LTEXT           "ShadowSSDT函数：%d   挂钩函数：%d",
+                    IDC_STATIC_SHADOWSSDT,0,294,507,10,SS_SUNKEN,
+                    WS_EX_STATICEDGE
+END
+
+IDD_LMSGHOOK_MGR DIALOGEX 0, 0, 507, 305
+STYLE WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_MSG_HOOK_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,0,0,507,293
+    LTEXT           "消息钩子：%d",IDC_STATIC_MSGHOOK,0,295,507,10,SS_SUNKEN
+END
+
+IDD_LFILE_MGR DIALOGEX 0, 0, 506, 300
+STYLE DS_MODALFRAME | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_FILE_TREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    TVS_TRACKSELECT | TVS_SINGLEEXPAND | WS_TABSTOP,0,0,126,
+                    287,WS_EX_CLIENTEDGE
+    CONTROL         "List1",IDC_FILE_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,128,0,378,287,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_FILE,0,289,506,11,0,WS_EX_STATICEDGE
+END
+
+IDD_LSRV_MGR DIALOGEX 0, 0, 505, 303
+STYLE WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_SERVICE_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,0,0,505,291
+    LTEXT           "服务：0",IDC_STATIC_SERVICE,0,292,505,11,SS_SUNKEN
+END
+
+IDD_LNETWORK_MGR DIALOGEX 0, 0, 507, 302
+STYLE WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_NETWORK_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,0,0,507,291
+    LTEXT           "Tcp:0, Udp:0",IDC_STATIC_NETWORK,0,293,507,9,SS_SUNKEN
+END
+
+IDD_LREG_MGR DIALOGEX 0, 0, 508, 300
+STYLE DS_MODALFRAME | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_REG_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,128,0,380,287,WS_EX_CLIENTEDGE
+    CONTROL         "Tree1",IDC_REG_TREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    TVS_SINGLEEXPAND | TVS_FULLROWSELECT | WS_TABSTOP,0,0,
+                    126,287,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC,0,289,508,11,0,WS_EX_STATICEDGE
+END
+
+IDD_LDRV_MGR DIALOGEX 0, 0, 507, 303
+STYLE WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_DRVMOD_LISTS,"SysListView32",LVS_REPORT | 
+                    WS_TABSTOP,0,0,507,291
+    LTEXT           "驱动：0,  隐藏驱动：0,  可疑PE映像：0",
+                    IDC_STATIC_DRVMOD,0,293,507,10,SS_SUNKEN
+END
+
+IDD_LABOUT_DLG DIALOG DISCARDABLE  0, 0, 510, 311
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "联系作者",IDC_STATIC,1,9,506,103
+    GROUPBOX        "致谢与版权",IDC_STATIC,1,150,506,150
+    LTEXT           "作者 ：Chinghoi(谭正海)",IDC_STATIC,9,32,144,8
+    LTEXT           "博客 ：http://blog.csdn.net/Chinghoi",IDC_BLOG,10,85,
+                    185,8
+    LTEXT           "微博 ：http://t.qq.com/ChinghoiTam",IDC_MICRO_BLOG,10,
+                    67,172,8
+    LTEXT           "      此款工具为作者学习Windows内核安全编程而写的个人作品, 版本为 0.11开源版, 目前仅适用于XP系统。\n\n\n致谢：\n\t<SenkoBQB、郁金香老师 、Winker、instruder、shineastdh、dragonltx、weolar>等等, 在写作过程中, 还参考了N多大牛们的博客技术文章, 在此一并表示感谢。\n\n\n\nCopyright(C) 2012 - 2013 Chinghoi, 版权所有.",
+                    IDC_STATIC,11,200,487,80
+    LTEXT           "作品名:\tixer  0.11 开源版",IDC_STATIC,11,177,132,12
+    EDITTEXT        IDC_EMIAL,10,48,149,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,1
+ PRODUCTVERSION 1,0,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "chinghoi@vip.qq.com\0"
+            VALUE "FileDescription", "Anti Virus&Rootkit Tools\0"
+            VALUE "FileVersion", "1, 0, 1, 1\0"
+            VALUE "InternalName", "ixer\0"
+            VALUE "LegalCopyright", "(C) 2012-2013 Chinghoi, All Rights Reserved.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ixer.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ixer\0"
+            VALUE "ProductVersion", "1, 0, 1, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_LPROC_MGR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 510
+    END
+
+    IDD_NEW_DLL_MGR_DLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_NEW_THREAD_MGR_DLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_LSSDT_MGR, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 302
+    END
+
+    IDD_LSHADOW_MGR, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 302
+    END
+
+    IDD_LMSGHOOK_MGR, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 304
+    END
+
+    IDD_LDRV_MGR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 505
+        BOTTOMMARGIN, 302
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_PROC_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_PRO"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_PRO_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "查看进程线程",                IDM_PRO_THREAD_LIST
+        MENUITEM "查看进程模块",                IDM_PRO_MODULE_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "结束进程",                    IDM_PROC_KILLER
+        MENUITEM SEPARATOR
+        MENUITEM "复制进程名",                  IDM_COPY_PROCNAME
+        MENUITEM "复制进程路径",                IDM_COPY_PROCPATH
+        MENUITEM SEPARATOR
+        MENUITEM "定位到进程文件",              IDM_GPS_PROCFILE
+    END
+END
+
+IDR_DLL_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_MOD"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_MOD_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "卸载模块",                    IDM_MOD_TERMINATOR
+    END
+END
+
+IDR_THREAD_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_TRD"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_TRD_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "结束线程",                    IDM_TRD_TERMINATOR
+    END
+END
+
+IDR_SSDT_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_SSDT"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_SSDT_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "恢复",                        IDM_SSDT_RESTORE
+    END
+END
+
+IDR_SHADOW_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_SHADOW"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_SHADOW_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "恢复",                        IDM_SHADOW_RESTORE
+    END
+END
+
+IDR_FILE_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_FLE"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_FLE_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "刪除",                        IDM_DEL_FILE
+    END
+END
+
+IDR_MSGHOOK_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_MSGHOOK"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_MSGHOOK_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "卸载",                        IDM_MSG_UNHOOK
+    END
+END
+
+IDR_SRV_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_SRV"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_SRV_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "启动",                        IDM_SRV_START
+        MENUITEM "停止",                        IDM_SRV_STOP
+        MENUITEM "暂停",                        IDM_SRV_PAUSE
+        MENUITEM "恢复",                        IDM_SRV_RESTORE
+        MENUITEM "删除",                        IDM_SRV_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "自动",                        IDM_SRV_AUTO
+        MENUITEM "手动",                        IDM_SRV_MANUAL
+        MENUITEM "禁用",                        IDM_SRV_DISABLE
+    END
+END
+
+IDR_NET_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_NET"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_NET_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "終止进程",                    IDM_CONNECT_PRO_KILLER
+    END
+END
+
+IDR_REG_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_REG"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_REG_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "刪除",                        IDM_REG_DELETE
+    END
+END
+
+IDR_DRV_RPOP MENU DISCARDABLE 
+BEGIN
+    POPUP "MENU_DRV"
+    BEGIN
+        MENUITEM "刷新",                        IDM_REFRESH_DRV_LIST
+        MENUITEM SEPARATOR
+        MENUITEM "删除驱动文件",                IDM_DELETE_DRVFILE
+        MENUITEM SEPARATOR
+        MENUITEM "复制驱动名",                  IDM_COPY_DRVNAME
+        MENUITEM "复制驱动路径",                IDM_COPY_DRVPATH
+        MENUITEM SEPARATOR
+        MENUITEM "定位到驱动文件",              IDM_GPS_DRVFILE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 ixer(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ixer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
