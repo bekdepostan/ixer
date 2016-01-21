@@ -359,7 +359,7 @@ void CixerDlg::OnClose()
 {
 	// TODO: Add your message handler code here and/or call default
 	//阴影效果
-	AnimateWindow(GetSafeHwnd(), 720, AW_HIDE|AW_BLEND);
+	AnimateWindow(720, AW_HIDE|AW_BLEND);
 	//卸载驱动服务
 	Deleteservice(DRVNAME);
 	CDialog::OnClose();

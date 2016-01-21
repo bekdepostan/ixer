@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Bin\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\ixer.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\ixer.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\ixer.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>..\Bin\$(ProjectName).exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\ixer.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\ixer.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\ixer.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>..\Bin\$(ProjectName).exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="UIClass\SortListCtrl\SortHeaderCtrl.cpp" />
+    <ClCompile Include="UIClass\SortListCtrl\SortListCtrl.cpp" />
+    <ClCompile Include="UIClass\Hyperlink\HyperLink.cpp" />
+    <ClCompile Include="moduleMgr.cpp" />
+    <ClCompile Include="threadMgr.cpp" />
+    <ClCompile Include="processMgr.cpp" />
+    <ClCompile Include="FileMgr.cpp" />
+    <ClCompile Include="NetWorkMgr.cpp" />
+    <ClCompile Include="RegMgr.cpp" />
+    <ClCompile Include="DrvModMgr.cpp" />
+    <ClCompile Include="ShadowSSDTMgr.cpp" />
+    <ClCompile Include="SSDTMgr.cpp" />
+    <ClCompile Include="MsgHookMgr.cpp" />
+    <ClCompile Include="IxAboutDlg.cpp" />
+    <ClCompile Include="common.cpp" />
+    <ClCompile Include="Module.cpp" />
+    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="PE.cpp" />
+    <ClCompile Include="OS.cpp" />
+    <ClCompile Include="API.cpp" />
+    <ClCompile Include="Reg.cpp" />
+    <ClCompile Include="Net.cpp" />
+    <ClCompile Include="WindowsVersion.cpp" />
+    <ClCompile Include="ixer.cpp" />
+    <ClCompile Include="ixerDlg.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UIClass\SortListCtrl\SortHeaderCtrl.h" />
+    <ClInclude Include="UIClass\SortListCtrl\SortListCtrl.h" />
+    <ClInclude Include="UIClass\Hyperlink\Hyperlink.h" />
+    <ClInclude Include="moduleMgr.h" />
+    <ClInclude Include="threadMgr.h" />
+    <ClInclude Include="processMgr.h" />
+    <ClInclude Include="FileMgr.h" />
+    <ClInclude Include="NetWorkMgr.h" />
+    <ClInclude Include="RegMgr.h" />
+    <ClInclude Include="DrvModMgr.h" />
+    <ClInclude Include="ShadowSSDTMgr.h" />
+    <ClInclude Include="SSDTMgr.h" />
+    <ClInclude Include="MsgHookMgr.h" />
+    <ClInclude Include="IxAboutDlg.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="..\Common\ioctl.h" />
+    <ClInclude Include="..\Common\Surface.h" />
+    <ClInclude Include="DataClass\TypeStruct.h" />
+    <ClInclude Include="Module.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="PE.h" />
+    <ClInclude Include="OS.h" />
+    <ClInclude Include="rootkit.h" />
+    <ClInclude Include="API.h" />
+    <ClInclude Include="MsgHook.h" />
+    <ClInclude Include="Reg.h" />
+    <ClInclude Include="Net.h" />
+    <ClInclude Include="WindowsVersion.h" />
+    <ClInclude Include="ixer.h" />
+    <ClInclude Include="ixerDlg.h" />
+    <ClInclude Include="NtUnDoc.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ixer.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\35floppy.ico" />
+    <CustomBuild Include="res\AtUAC.bin">
+      <FileType>Document</FileType>
+    </CustomBuild>
+    <CustomBuild Include="res\CDdrive.ico" />
+    <CustomBuild Include="res\Clsdfold.ico" />
+    <CustomBuild Include="res\Computer.ico" />
+    <CustomBuild Include="res\default.ico" />
+    <CustomBuild Include="res\default1.bin">
+      <FileType>Document</FileType>
+    </CustomBuild>
+    <CustomBuild Include="res\Drive.ico" />
+    <CustomBuild Include="res\Drv.ico" />
+    <CustomBuild Include="res\dword.ico" />
+    <CustomBuild Include="res\floppy.ico" />
+    <CustomBuild Include="res\ixer.ico" />
+    <CustomBuild Include="res\ixer.rc2">
+      <FileType>RC</FileType>
+    </CustomBuild>
+    <CustomBuild Include="res\Mycomp.ico" />
+    <CustomBuild Include="res\Openfold.ico" />
+    <CustomBuild Include="res\regClsdfold.ico" />
+    <CustomBuild Include="res\regComputer.ico" />
+    <CustomBuild Include="res\regDWORD.ico" />
+    <CustomBuild Include="res\regOpenfold.ico" />
+    <CustomBuild Include="res\regSZ.ico" />
+    <CustomBuild Include="res\SETUPFILE.ico" />
+    <CustomBuild Include="res\sz.ico" />
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

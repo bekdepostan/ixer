@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{acce2987-dea0-433f-b1f3-0833f5b9ba07}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UIClass">
+      <UniqueIdentifier>{a3145fe9-1ef7-4e8c-b7ad-13048c8e82b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIClass\SortListCtrl">
+      <UniqueIdentifier>{0cff0ecb-e0b8-4c99-b7c2-5d811afe8c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIClass\Hyperlink">
+      <UniqueIdentifier>{faafb2f9-a842-43d0-9873-9be152798d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule">
+      <UniqueIdentifier>{c4711f85-b186-4b90-ac63-66807353ae66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\ProcessMgr">
+      <UniqueIdentifier>{727266ee-a088-4c74-93e9-620c4b6d0ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\ProcessMgr\DllMgr">
+      <UniqueIdentifier>{c9c61e88-026f-45e1-8aad-7d68b7afd53d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\ProcessMgr\ThreadMgr">
+      <UniqueIdentifier>{e6cd0f8b-b213-467e-b08c-6d18606a4e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\FileMgr">
+      <UniqueIdentifier>{322ddff4-33f5-4c61-a7f2-647f3c98245e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\NetWorkMgr">
+      <UniqueIdentifier>{7e9b1d25-5263-4980-a9c9-b5ee7acc3ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\RegMgr">
+      <UniqueIdentifier>{22b6046f-c5f1-4ca2-82e1-e4d2fd5ce55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\DrvMgr">
+      <UniqueIdentifier>{83c6e6a8-6032-4710-bf64-55bbebe16c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\ssdtMgr">
+      <UniqueIdentifier>{58deae2f-a791-45c8-9f0a-095ff5960d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\MsghookMgr">
+      <UniqueIdentifier>{6ecd0d67-a195-40f4-95c3-a2d97be24e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UIModule\IxAboutDlg">
+      <UniqueIdentifier>{6532cc7a-dac8-46c9-8340-625047b22d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{a05a778c-38bb-4826-b56e-74af6abf39f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataClass">
+      <UniqueIdentifier>{9d50ecc2-c75f-4e5a-bae6-5cfcf87defb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunModule">
+      <UniqueIdentifier>{688cb20a-3818-47a9-9608-08820e9e6646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunModule\Dll_func">
+      <UniqueIdentifier>{76ca0fff-da33-4f55-8361-315360a24ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunModule\Mem_Fun">
+      <UniqueIdentifier>{02b058f0-0429-4dcd-a9e1-8763777e39aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunModule\PE_Fun">
+      <UniqueIdentifier>{6bd6bf71-042f-45d1-9e13-1e4e1674c6db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunModule\OS_Fun">
+      <UniqueIdentifier>{e56aa0a0-985f-487f-8174-bfa5f4b0281f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunModule\Pro_Fun">
+      <UniqueIdentifier>{1d08441c-4594-4113-b641-9eaa613f8c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunModule\API_Fun">
+      <UniqueIdentifier>{a69bc3c0-11dd-4cc7-93a3-bba130d0accf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunModule\MsgHook_Fun">
+      <UniqueIdentifier>{de7674a8-5a39-4169-98b3-3871885c9391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunModule\Reg_Fun">
+      <UniqueIdentifier>{0be50a08-400c-435e-9df4-bcb7c12e4e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FunClass">
+      <UniqueIdentifier>{e674f092-4534-4101-ac85-9831fceeafe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d17a9c64-16d5-40e1-a51b-8c9fcf0749eb}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ce3adb39-fcb2-4e79-9f5f-43d8a2807820}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UIClass\SortListCtrl\SortHeaderCtrl.cpp">
+      <Filter>Source Files\UIClass\SortListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="UIClass\SortListCtrl\SortListCtrl.cpp">
+      <Filter>Source Files\UIClass\SortListCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="UIClass\Hyperlink\HyperLink.cpp">
+      <Filter>Source Files\UIClass\Hyperlink</Filter>
+    </ClCompile>
+    <ClCompile Include="moduleMgr.cpp">
+      <Filter>Source Files\UIModule\ProcessMgr\DllMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="threadMgr.cpp">
+      <Filter>Source Files\UIModule\ProcessMgr\ThreadMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="processMgr.cpp">
+      <Filter>Source Files\UIModule\ProcessMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMgr.cpp">
+      <Filter>Source Files\UIModule\FileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWorkMgr.cpp">
+      <Filter>Source Files\UIModule\NetWorkMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="RegMgr.cpp">
+      <Filter>Source Files\UIModule\RegMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="DrvModMgr.cpp">
+      <Filter>Source Files\UIModule\DrvMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowSSDTMgr.cpp">
+      <Filter>Source Files\UIModule\ssdtMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SSDTMgr.cpp">
+      <Filter>Source Files\UIModule\ssdtMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgHookMgr.cpp">
+      <Filter>Source Files\UIModule\MsghookMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="IxAboutDlg.cpp">
+      <Filter>Source Files\UIModule\IxAboutDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Module.cpp">
+      <Filter>Source Files\FunModule\Dll_func</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files\FunModule\Mem_Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="PE.cpp">
+      <Filter>Source Files\FunModule\PE_Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="OS.cpp">
+      <Filter>Source Files\FunModule\OS_Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="API.cpp">
+      <Filter>Source Files\FunModule\API_Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="Reg.cpp">
+      <Filter>Source Files\FunModule\Reg_Fun</Filter>
+    </ClCompile>
+    <ClCompile Include="Net.cpp">
+      <Filter>Source Files\FunModule</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsVersion.cpp">
+      <Filter>Source Files\FunClass</Filter>
+    </ClCompile>
+    <ClCompile Include="ixer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ixerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UIClass\SortListCtrl\SortHeaderCtrl.h">
+      <Filter>Source Files\UIClass\SortListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="UIClass\SortListCtrl\SortListCtrl.h">
+      <Filter>Source Files\UIClass\SortListCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="UIClass\Hyperlink\Hyperlink.h">
+      <Filter>Source Files\UIClass\Hyperlink</Filter>
+    </ClInclude>
+    <ClInclude Include="moduleMgr.h">
+      <Filter>Source Files\UIModule\ProcessMgr\DllMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="threadMgr.h">
+      <Filter>Source Files\UIModule\ProcessMgr\ThreadMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="processMgr.h">
+      <Filter>Source Files\UIModule\ProcessMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMgr.h">
+      <Filter>Source Files\UIModule\FileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWorkMgr.h">
+      <Filter>Source Files\UIModule\NetWorkMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="RegMgr.h">
+      <Filter>Source Files\UIModule\RegMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="DrvModMgr.h">
+      <Filter>Source Files\UIModule\DrvMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowSSDTMgr.h">
+      <Filter>Source Files\UIModule\ssdtMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDTMgr.h">
+      <Filter>Source Files\UIModule\ssdtMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgHookMgr.h">
+      <Filter>Source Files\UIModule\MsghookMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="IxAboutDlg.h">
+      <Filter>Source Files\UIModule\IxAboutDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ioctl.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Surface.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DataClass\TypeStruct.h">
+      <Filter>Source Files\DataClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Module.h">
+      <Filter>Source Files\FunModule\Dll_func</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Source Files\FunModule\Mem_Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="PE.h">
+      <Filter>Source Files\FunModule\PE_Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="OS.h">
+      <Filter>Source Files\FunModule\OS_Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="rootkit.h">
+      <Filter>Source Files\FunModule\Pro_Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="API.h">
+      <Filter>Source Files\FunModule\API_Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgHook.h">
+      <Filter>Source Files\FunModule\MsgHook_Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="Reg.h">
+      <Filter>Source Files\FunModule\Reg_Fun</Filter>
+    </ClInclude>
+    <ClInclude Include="Net.h">
+      <Filter>Source Files\FunModule</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsVersion.h">
+      <Filter>Source Files\FunClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ixer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ixerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NtUnDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ixer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\35floppy.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\AtUAC.bin">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\CDdrive.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Clsdfold.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Computer.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\default.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\default1.bin">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Drive.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Drv.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\dword.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\floppy.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\ixer.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\ixer.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Mycomp.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Openfold.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\regClsdfold.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\regComputer.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\regDWORD.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\regOpenfold.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\regSZ.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\SETUPFILE.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\sz.ico">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

@@ -307,7 +307,8 @@ CString HexToTen(CString hex)
 	
     hex.MakeLower();
 	
-	for ( int hi=0; hi<hex.GetLength(); hi++ )
+	int hi = 0;
+	for (hi=0; hi<hex.GetLength(); hi++ )
 	{
 
 		tmm = hex[ hi ]; 
