@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{37fdc143-862e-49c4-8137-b3941dcc03f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{afb2c241-4fae-402b-b264-75d39baa9d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{68d14611-ee6b-47e6-a99f-295702d789c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\drvMod">
+      <UniqueIdentifier>{dc0df43e-504d-4e49-a31c-08eec872bea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\file">
+      <UniqueIdentifier>{8cc52e83-fcc1-41ee-8ae3-a097e2b1d6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Func">
+      <UniqueIdentifier>{d2a95c62-d0dd-46fc-bcbb-99084013587c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ixer">
+      <UniqueIdentifier>{35b5a802-652e-4e27-8d3a-81165ff3bdd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\msghook">
+      <UniqueIdentifier>{dd7d09a9-7a0b-41f3-bec1-12a12ab088ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\net">
+      <UniqueIdentifier>{f34bf61a-beb4-4b3c-a134-33d2b917c99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\pe">
+      <UniqueIdentifier>{b25c67e4-12de-4329-b86f-5d92bfc3c3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\proc">
+      <UniqueIdentifier>{f08a5d40-d73a-49ed-9d87-546e688e9bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\proc\dll">
+      <UniqueIdentifier>{2c9f6759-a168-4bd1-b017-5aedafab249c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\proc\thread">
+      <UniqueIdentifier>{38130579-5b31-4124-b7c7-59a8f280b7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\reg">
+      <UniqueIdentifier>{ff0ff6bd-db1e-4c94-85f7-7ebd78b27690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ssdt">
+      <UniqueIdentifier>{1bc93669-1f95-43b3-9d06-3fcd77d9dc63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ix.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ioctl.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Surface.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="drvMod.h">
+      <Filter>Source\drvMod</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Source\file</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Source\Func</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>Source\ixer</Filter>
+    </ClInclude>
+    <ClInclude Include="WinOSVersion.h">
+      <Filter>Source\ixer</Filter>
+    </ClInclude>
+    <ClInclude Include="msghook.h">
+      <Filter>Source\msghook</Filter>
+    </ClInclude>
+    <ClInclude Include="Net.h">
+      <Filter>Source\net</Filter>
+    </ClInclude>
+    <ClInclude Include="ASM\LDasm.h">
+      <Filter>Source\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>Source\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="dll.h">
+      <Filter>Source\proc\dll</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Source\proc\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>Source\proc</Filter>
+    </ClInclude>
+    <ClInclude Include="reg.h">
+      <Filter>Source\reg</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowSSDT.h">
+      <Filter>Source\ssdt</Filter>
+    </ClInclude>
+    <ClInclude Include="ssdt.h">
+      <Filter>Source\ssdt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ix.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ioctl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="pe.cpp">
+      <Filter>Source\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="ASM\LDasm.cpp">
+      <Filter>Source\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>Source\proc</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>Source\proc\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="dll.cpp">
+      <Filter>Source\proc\dll</Filter>
+    </ClCompile>
+    <ClCompile Include="reg.cpp">
+      <Filter>Source\reg</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowSSDT.cpp">
+      <Filter>Source\ssdt</Filter>
+    </ClCompile>
+    <ClCompile Include="ssdt.cpp">
+      <Filter>Source\ssdt</Filter>
+    </ClCompile>
+    <ClCompile Include="Net.cpp">
+      <Filter>Source\net</Filter>
+    </ClCompile>
+    <ClCompile Include="msghook.cpp">
+      <Filter>Source\msghook</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>Source\ixer</Filter>
+    </ClCompile>
+    <ClCompile Include="WinOSVersion.cpp">
+      <Filter>Source\ixer</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Source\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>Source\file</Filter>
+    </ClCompile>
+    <ClCompile Include="drvMod.cpp">
+      <Filter>Source\drvMod</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
