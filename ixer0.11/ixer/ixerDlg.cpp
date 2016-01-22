@@ -39,7 +39,7 @@ extern CIxAboutDlg		m_IxAboutDlg;
 //TAB控件
 char	*tabMainView[] = {"进程", "驱动模块", "SSDT", "ShadowSSDT", "消息钩子", "注冊表", "文件",
 									"网絡", "关于"};
-int		tabMainViewCount = ( sizeof(tabMainView)/4 );
+int		tabMainViewCount = ( sizeof(tabMainView)/sizeof(tabMainView[0]) );
 /////////////////////////////////////////////////////////////////////////////
 // CAboutDlg dialog used for App About
 

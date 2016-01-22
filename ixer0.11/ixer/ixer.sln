@@ -3,14 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ixer", "ixer.vcxproj", "{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Driver", "..\Driver\Driver.vcxproj", "{84938F5D-3D33-4941-9E0B-8688839C7F72}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ix", "..\Driver\Driver.vcxproj", "{84938F5D-3D33-4941-9E0B-8688839C7F72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
-		Driver Debug|Win32 = Driver Debug|Win32
-		Driver Debug|x64 = Driver Debug|x64
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
@@ -18,9 +16,6 @@ Global
 		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Debug|Win32.ActiveCfg = Debug|Win32
 		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Debug|Win32.Build.0 = Debug|Win32
 		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Debug|x64.ActiveCfg = Debug|Win32
-		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Driver Debug|Win32.ActiveCfg = Driver Debug|Win32
-		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Driver Debug|Win32.Build.0 = Driver Debug|Win32
-		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Driver Debug|x64.ActiveCfg = Driver Debug|Win32
 		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Release|Win32.ActiveCfg = Release|Win32
 		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Release|Win32.Build.0 = Release|Win32
 		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Release|x64.ActiveCfg = Release|Win32
@@ -28,10 +23,6 @@ Global
 		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Debug|Win32.Build.0 = Debug|Win32
 		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Debug|x64.ActiveCfg = Debug|x64
 		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Debug|x64.Build.0 = Debug|x64
-		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Driver Debug|Win32.ActiveCfg = Debug|Win32
-		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Driver Debug|Win32.Build.0 = Debug|Win32
-		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Driver Debug|x64.ActiveCfg = Debug|x64
-		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Driver Debug|x64.Build.0 = Debug|x64
 		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Release|Win32.ActiveCfg = Release|Win32
 		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Release|Win32.Build.0 = Release|Win32
 		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Release|x64.ActiveCfg = Release|x64

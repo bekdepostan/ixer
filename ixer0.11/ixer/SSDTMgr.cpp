@@ -81,8 +81,8 @@ int CSSDTMgr::GetCurrentSSDTList(CSortListCtrl *m_ssdtList)
 	ULONG		numOfSrv=0;
 	PSSDT_INFO	pSsdtInfo;
 	CHAR		Index[6] = "\0";
-	CHAR		NewAddr[10] = "\0";
-	CHAR		OldAddr[10] = "\0";
+	CHAR		NewAddr[12] = "\0";
+	CHAR		OldAddr[12] = "\0";
 	CHAR		hookstype[15] = "\0";
 	char		fixSsdtModPath_c[MAXPATHLEN];
 	char		ssdtNum_s[128];
