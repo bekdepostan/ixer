@@ -18,8 +18,8 @@ NTSTATUS GetProcessList()
 		return STATUS_UNSUCCESSFUL;
 
 	//清空记录
-	RtlZeroMemory( Eproc, sizeof(ULONG)*1024 );
-	RtlZeroMemory( hideEproc, sizeof(ULONG)*128 );
+	RtlZeroMemory( Eproc, sizeof(Eproc) );
+	RtlZeroMemory( hideEproc, sizeof(hideEproc) );
 
 	//ZwQuerySysInfo枚举进程
 	status=EnumProcessByZwQuerySysInfo();
