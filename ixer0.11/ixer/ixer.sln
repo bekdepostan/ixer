@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ixer", "ixer.vcxproj", "{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ixer", "ixer.vcxproj", "{CD08F813-E885-F328-2041-903148081187}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ix", "..\Driver\Driver.vcxproj", "{84938F5D-3D33-4941-9E0B-8688839C7F72}"
 EndProject
@@ -13,12 +13,12 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Debug|Win32.Build.0 = Debug|Win32
-		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Debug|x64.ActiveCfg = Debug|Win32
-		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Release|Win32.ActiveCfg = Release|Win32
-		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Release|Win32.Build.0 = Release|Win32
-		{D0ED92C8-2B8E-69D8-DB10-85562C4B084C}.Release|x64.ActiveCfg = Release|Win32
+		{CD08F813-E885-F328-2041-903148081187}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD08F813-E885-F328-2041-903148081187}.Debug|Win32.Build.0 = Debug|Win32
+		{CD08F813-E885-F328-2041-903148081187}.Debug|x64.ActiveCfg = Debug|Win32
+		{CD08F813-E885-F328-2041-903148081187}.Release|Win32.ActiveCfg = Release|Win32
+		{CD08F813-E885-F328-2041-903148081187}.Release|Win32.Build.0 = Release|Win32
+		{CD08F813-E885-F328-2041-903148081187}.Release|x64.ActiveCfg = Release|Win32
 		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Debug|Win32.ActiveCfg = Debug|Win32
 		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Debug|Win32.Build.0 = Debug|Win32
 		{84938F5D-3D33-4941-9E0B-8688839C7F72}.Debug|x64.ActiveCfg = Debug|x64

@@ -90,9 +90,9 @@ int CMsgHookMgr::EnumMessageHooks(CSortListCtrl *m_msghookList)
 	BOOL		success;
 	DWORD		bytesRead;
 	PHOOK_INFO	HookInfo;
-	CHAR		Handle[10] = "\0";
+	CHAR		Handle[12] = "\0";
 	CHAR		Type[32] = "\0";
-	CHAR		Proc[10] = "\0";
+	CHAR		Proc[12] = "\0";
 	CHAR		Pid[10] = "\0";
 	CHAR		Tid[10] = "\0";
 	CHAR		ModuleName[256] = "\0";
